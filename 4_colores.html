@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 200px; height: 200px; background-color: blue;" id="div-blue"></div>
+    <div style="width: 200px; height: 200px; background-color: red;"  id="div-red"></div>
+    <div style="width: 200px; height: 200px; background-color: green;" id="div-green"></div>
+    <div style="width: 200px; height: 200px; background-color: yellow;" id="div-yellow"></div>
+
+    <script>
+       // Selecciona cada div por su ID
+const divBlue = document.getElementById('div-blue');
+const divRed = document.getElementById('div-red');
+const divGreen = document.getElementById('div-green');
+const divYellow = document.getElementById('div-yellow');
+
+// Agrega el evento 'click' a cada div
+divBlue.addEventListener('click', function() {
+  divBlue.style.backgroundColor = 'black';
+});
+
+divRed.addEventListener('click', function() {
+  divRed.style.backgroundColor = 'black';
+});
+
+divGreen.addEventListener('click', function() {
+  divGreen.style.backgroundColor = 'black';
+});
+
+divYellow.addEventListener('click', function() {
+  divYellow.style.backgroundColor = 'black';
+});
+
+    </script>
+</body>
+</html>
